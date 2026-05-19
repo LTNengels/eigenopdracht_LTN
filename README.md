@@ -1,11 +1,11 @@
 # eigenopdracht_LTN
-# 🔬 Cell Cancer Detector
+# Cell Cancer Detector
 
 Automatische detectie van borstkanker in microscopische celafbeeldingen met behulp van beeldanalyse en machine learning.
 
 ---
 
-## 📌 Projectomschrijving
+##  Projectomschrijving
 
 Dit project analyseert microscopische celafbeeldingen om automatisch onderscheid te maken tussen **normale cellen** en **kankercellen**. Het systeem verwerkt de afbeeldingen stap voor stap: van ruisverwijdering tot segmentatie, feature extractie en uiteindelijk een classificatie via een Random Forest-model.
 
@@ -13,7 +13,7 @@ Het project is ontwikkeld als onderdeel van de skill *Data Science for Biology*,
 
 ---
 
-## ⚙️ Installatie
+##  Installatie
 
 ### Vereisten
 - Python 3.8 of hoger
@@ -27,7 +27,7 @@ pip install opencv-python scikit-image numpy scikit-learn joblib
 
 ---
 
-## 🚀 Gebruik
+##  Gebruik
 
 ### 1. Zet je afbeeldingen klaar
 Plaats de `.tif`-afbeeldingen die je wilt analyseren in de map `data/test/`.
@@ -54,7 +54,7 @@ afbeelding2.tif : cancer
 
 ---
 
-## 🧠 Hoe werkt het?
+##  Hoe werkt het?
 
 ```
 Afbeelding (.tif)
@@ -91,7 +91,7 @@ Resultaat            →  "normal" / "cancer" per afbeelding
 
 ---
 
-## 📁 Projectstructuur
+##  Projectstructuur
 
 ```
 project/
@@ -109,7 +109,7 @@ project/
 
 ---
 
-## 📦 Gebruikte bibliotheken
+##  Gebruikte bibliotheken
 
 | Bibliotheek | Gebruik |
 |---|---|
@@ -121,7 +121,7 @@ project/
 
 ---
 
-## 📊 Evaluatie
+##  Evaluatie
 
 Het model wordt geëvalueerd met een classificatierapport dat precisie, recall en F1-score weergeeft per klasse:
 
@@ -134,7 +134,7 @@ Het model wordt geëvalueerd met een classificatierapport dat precisie, recall e
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 **Luuk**
 Opleiding: Biologie / Bio-informatica
